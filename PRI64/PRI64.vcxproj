@@ -84,6 +84,7 @@
     <ClCompile Include="perfectSquares.cpp" />
     <ClCompile Include="removeSpaces.cpp" />
     <ClCompile Include="reverseBits.cpp" />
+    <ClCompile Include="reverseWords.cpp" />
     <ClCompile Include="simplifyPath.cpp" />
     <ClCompile Include="testPrintf.cpp" />
     <ClCompile Include="timeStamp.cpp" />
