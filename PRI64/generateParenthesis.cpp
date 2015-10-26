@@ -38,8 +38,3 @@ public:
 	}
 };
 
-int main()
-{
-
-}
-

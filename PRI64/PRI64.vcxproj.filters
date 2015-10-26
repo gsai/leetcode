@@ -99,5 +99,8 @@
     <ClCompile Include="generateParenthesis.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="compareVersion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

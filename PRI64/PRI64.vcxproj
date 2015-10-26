@@ -68,6 +68,7 @@
     <ClCompile Include="bestTimeToBuyAndSellStock.cpp" />
     <ClCompile Include="calculate.cpp" />
     <ClCompile Include="climbingStairs.cpp" />
+    <ClCompile Include="compareVersion.cpp" />
     <ClCompile Include="decodingWays.cpp" />
     <ClCompile Include="divide.cpp" />
     <ClCompile Include="dungeonGame.cpp" />
