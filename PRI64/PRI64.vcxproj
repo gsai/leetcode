@@ -77,7 +77,6 @@
     <ClCompile Include="fractionToDecimal.cpp" />
     <ClCompile Include="generateParenthesis.cpp" />
     <ClCompile Include="groupAnagrams.cpp" />
-    <ClCompile Include="HeapDemo.cpp" />
     <ClCompile Include="letterCombination.cpp" />
     <ClCompile Include="longestConsecutive.cpp" />
     <ClCompile Include="mySqrt.cpp" />

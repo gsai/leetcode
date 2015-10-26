@@ -81,9 +81,6 @@
     <ClCompile Include="fractionToDecimal.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="HeapDemo.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="reverseBits.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
