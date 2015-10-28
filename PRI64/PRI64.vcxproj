@@ -82,6 +82,7 @@
     <ClCompile Include="generateParenthesis.cpp" />
     <ClCompile Include="groupAnagrams.cpp" />
     <ClCompile Include="hIndex.cpp" />
+    <ClCompile Include="isAnagram.cpp" />
     <ClCompile Include="letterCombination.cpp" />
     <ClCompile Include="longestConsecutive.cpp" />
     <ClCompile Include="mySqrt.cpp" />

@@ -123,5 +123,8 @@
     <ClCompile Include="hIndex.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="isAnagram.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
