@@ -105,5 +105,23 @@
     <ClCompile Include="reverseWords.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="nextPermutation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="basicCalculatorII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="addBinary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fourSum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STLheapDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hIndex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

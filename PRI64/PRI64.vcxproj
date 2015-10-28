@@ -65,6 +65,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="addBinary.cpp" />
+    <ClCompile Include="basicCalculatorII.cpp" />
     <ClCompile Include="bestTimeToBuyAndSellStock.cpp" />
     <ClCompile Include="calculate.cpp" />
     <ClCompile Include="climbingStairs.cpp" />
@@ -75,17 +77,21 @@
     <ClCompile Include="findDuplicate.cpp" />
     <ClCompile Include="findMissingPositive.cpp" />
     <ClCompile Include="findSubstring.cpp" />
+    <ClCompile Include="fourSum.cpp" />
     <ClCompile Include="fractionToDecimal.cpp" />
     <ClCompile Include="generateParenthesis.cpp" />
     <ClCompile Include="groupAnagrams.cpp" />
+    <ClCompile Include="hIndex.cpp" />
     <ClCompile Include="letterCombination.cpp" />
     <ClCompile Include="longestConsecutive.cpp" />
     <ClCompile Include="mySqrt.cpp" />
+    <ClCompile Include="nextPermutation.cpp" />
     <ClCompile Include="perfectSquares.cpp" />
     <ClCompile Include="removeSpaces.cpp" />
     <ClCompile Include="reverseBits.cpp" />
     <ClCompile Include="reverseWords.cpp" />
     <ClCompile Include="simplifyPath.cpp" />
+    <ClCompile Include="STLheapDemo.cpp" />
     <ClCompile Include="testPrintf.cpp" />
     <ClCompile Include="timeStamp.cpp" />
     <ClCompile Include="uniqueBinarySearchTrees.cpp" />
