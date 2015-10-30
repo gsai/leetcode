@@ -75,6 +75,7 @@
     <ClCompile Include="divide.cpp" />
     <ClCompile Include="dungeonGame.cpp" />
     <ClCompile Include="findDuplicate.cpp" />
+    <ClCompile Include="findKthLargest.cpp" />
     <ClCompile Include="findMissingPositive.cpp" />
     <ClCompile Include="findSubstring.cpp" />
     <ClCompile Include="fourSum.cpp" />
@@ -85,6 +86,7 @@
     <ClCompile Include="isAnagram.cpp" />
     <ClCompile Include="letterCombination.cpp" />
     <ClCompile Include="longestConsecutive.cpp" />
+    <ClCompile Include="majorityElement.cpp" />
     <ClCompile Include="mySqrt.cpp" />
     <ClCompile Include="nextPermutation.cpp" />
     <ClCompile Include="perfectSquares.cpp" />
@@ -92,9 +94,11 @@
     <ClCompile Include="reverseBits.cpp" />
     <ClCompile Include="reverseWords.cpp" />
     <ClCompile Include="simplifyPath.cpp" />
+    <ClCompile Include="sortList.cpp" />
     <ClCompile Include="STLheapDemo.cpp" />
     <ClCompile Include="testPrintf.cpp" />
     <ClCompile Include="timeStamp.cpp" />
+    <ClCompile Include="twoSum.cpp" />
     <ClCompile Include="uniqueBinarySearchTrees.cpp" />
     <ClCompile Include="uniquePaths.cpp" />
     <ClCompile Include="uniquePathsII.cpp" />

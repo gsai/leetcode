@@ -126,5 +126,17 @@
     <ClCompile Include="isAnagram.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="sortList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="majorityElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="findKthLargest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="twoSum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
