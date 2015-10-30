@@ -87,6 +87,7 @@
     <ClCompile Include="letterCombination.cpp" />
     <ClCompile Include="longestConsecutive.cpp" />
     <ClCompile Include="majorityElement.cpp" />
+    <ClCompile Include="mergeKLists.cpp" />
     <ClCompile Include="mySqrt.cpp" />
     <ClCompile Include="nextPermutation.cpp" />
     <ClCompile Include="perfectSquares.cpp" />
