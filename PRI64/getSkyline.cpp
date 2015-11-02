@@ -1,6 +1,4 @@
 #include <algorithm>
-#include <functional>
-#include <iterator>
 #include <iostream>
 #include <set>
 #include <map>
@@ -13,33 +11,30 @@ class Solution
 public:
 	vector<pair<int, int> > getSkyline(vector<vector<int> > &buildings)
 	{
-		multimap<int, int> points;
+		vector<pair<int, int> > points;
 		for (auto building : buildings)
 		{
-			points.emplace(building[0], building[2]);
-			points.emplace(building[1], -building[2]);
+			points.emplace_back(building[0], building[2]);
+			points.emplace_back(building[1], -building[2]);
 		}
+		sort(points.begin(), points.end());
 
-		multiset<int> heights = { 0 };
-		map<int, int> coords;
+		set<int> heights;
+		heights.insert(0);
+		vector<pair<int, int> > results;
 		for (auto point : points)
 		{
 			if (point.second > 0)
 				heights.insert(point.second);
 			else
-			{
 				heights.erase(-point.second);
-			}
 
 			int currHeight = *(heights.rbegin());
-			coords.insert(pair<int, int>(point.first, currHeight));
+			results.emplace_back(point.first, currHeight);
 		}
-
-		vector<pair<int, int> > result;
-		function<bool(pair<int, int>, pair<int, int>)> opr = [](pair<int, int> lf, pair<int, int> rt){return lf.second == rt.second; };
-		unique_copy(coords.begin(), coords.end(), back_insert_iterator<vector<pair<int, int> > >(result), opr);
-
-		return result;
+		vector<pair<int,int> >::iterator last=unique(results.begin(), results.end(), [](pair<int, int> lf, pair<int, int> rt){return lf.second == rt.second; });
+		results.erase(last, results.end());
+		return results;
 	}
 };
 
