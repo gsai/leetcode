@@ -52,7 +52,7 @@ public:
 	}
 };
 
-int main()
+int Kmain()
 {
 	int loop = 10;
 	vector<ListNode*> input;
