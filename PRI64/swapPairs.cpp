@@ -1,13 +1,8 @@
-#include <algorithm>
-#include <iostream>
-
-using namespace std;
-
 struct ListNode
 {
 	int val;
 	ListNode *next;
-	ListNode(int x) :val(x), next(NULL){}
+	ListNode(int x) :val(x), next(nullptr){}
 };
 
 class Solution
@@ -15,7 +10,7 @@ class Solution
 public:
 	ListNode* swapPairs(ListNode* head)
 	{
-		if (head == NULL || head->next == NULL)
+		if (head == nullptr || head->next == nullptr)
 			return head;
 		ListNode *nextNode = head->next;
 		ListNode *nextHead = nextNode->next;
