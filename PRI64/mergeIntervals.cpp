@@ -44,13 +44,3 @@ public:
 	}
 };
 
-int main()
-{
-	Solution sln;
-	vector<Interval> input = { { 1, 4 }, { 4, 5 } };
-	for (auto i : sln.merge(input))
-		cout << i.start << " " << i.end << endl;
-
-
-	return 0;
-}
