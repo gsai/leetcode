@@ -25,10 +25,3 @@ public:
 	}
 };
 
-int main()
-{
-	Solution sln;
-	cout << sln.mySqrt(2147483647) << endl;
-
-	return 0;
-}
