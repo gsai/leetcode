@@ -1,16 +1,21 @@
 #include <cstdint>
-#include <iostream>
-#include <string>
-#include <sstream>
-
+#include <cmath>
 using namespace std;
+
 class Solution
 {
 public:
-	string reverseBits(uint32_t n)
+	uint32_t reverseBits(uint32_t n)
 	{
-		stringstream ss(stringstream::in | stringstream::out);
-		ss << n;
+		int ans = 0;
+		for (int i = 0; i < 32; i++)
+		{
+			uint32_t mask = (1 << i);
+			if (n & mask)
+			{
+				ans += static_cast<uint32_t>(pow(2, 31 - i));
+			}
+		}
+		return ans;
 	}
 };
-

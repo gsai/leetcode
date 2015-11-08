@@ -40,16 +40,3 @@ public:
 	}
 };
 
-int main()
-{
-	Solution sln;
-	vector<int> v = { -1, 0, 1, 2, -1, -4 };
-	for (auto vi : sln.threeSum(v))
-	{
-		for (auto i : vi)
-			cout << i << " ";
-		cout << endl;
-	}
-
-	return 0;
-}
