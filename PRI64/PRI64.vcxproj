@@ -69,6 +69,7 @@
     <ClCompile Include="binaryTreePaths.cpp" />
     <ClCompile Include="BSTIterator.cpp" />
     <ClCompile Include="buildTree.cpp" />
+    <ClCompile Include="calculateMinimumHP.cpp" />
     <ClCompile Include="canFinish.cpp" />
     <ClCompile Include="cloneGraph.cpp" />
     <ClCompile Include="Codec.cpp" />
@@ -139,6 +140,7 @@
     <ClCompile Include="mergeIntervals.cpp" />
     <ClCompile Include="mergeKLists.cpp" />
     <ClCompile Include="minimumTotal.cpp" />
+    <ClCompile Include="minPathSum.cpp" />
     <ClCompile Include="MinStack.cpp" />
     <ClCompile Include="minSubArrayLen.cpp" />
     <ClCompile Include="minWindow.cpp" />
