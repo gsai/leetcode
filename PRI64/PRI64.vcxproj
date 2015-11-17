@@ -140,6 +140,7 @@
     <ClCompile Include="mergeKLists.cpp" />
     <ClCompile Include="minimumTotal.cpp" />
     <ClCompile Include="MinStack.cpp" />
+    <ClCompile Include="minSubArrayLen.cpp" />
     <ClCompile Include="minWindow.cpp" />
     <ClCompile Include="multiply.cpp" />
     <ClCompile Include="myAtoi.cpp" />
@@ -171,6 +172,7 @@
     <ClCompile Include="search.cpp" />
     <ClCompile Include="searchInsert.cpp" />
     <ClCompile Include="searchMatrix.cpp" />
+    <ClCompile Include="searchMatrixII.cpp" />
     <ClCompile Include="searchRange.cpp" />
     <ClCompile Include="setZeroes.cpp" />
     <ClCompile Include="simplifyPath.cpp" />
