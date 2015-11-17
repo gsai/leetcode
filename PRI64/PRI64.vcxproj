@@ -90,6 +90,7 @@
     <ClCompile Include="generateMatrix.cpp" />
     <ClCompile Include="grayCode.cpp" />
     <ClCompile Include="hammingWeight.cpp" />
+    <ClCompile Include="hIndexII.cpp" />
     <ClCompile Include="insert.cpp" />
     <ClCompile Include="isHappy.cpp" />
     <ClCompile Include="isInterleave.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="myPow.cpp" />
     <ClCompile Include="mySqrt.cpp" />
     <ClCompile Include="nextPermutation.cpp" />
+    <ClCompile Include="NumArray.cpp" />
     <ClCompile Include="numIsLands.cpp" />
     <ClCompile Include="partition.cpp" />
     <ClCompile Include="pathSum.cpp" />
