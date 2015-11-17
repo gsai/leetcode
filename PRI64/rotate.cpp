@@ -7,37 +7,17 @@ using namespace std;
 class Solution
 {
 public:
-	void rotate(vector<vector<int> > &matrix)
+	void rotate(vector<int> &nums, int k)
 	{
-		reverse(matrix.begin(), matrix.end());
-		for (int i = 0; i < matrix.size(); i++)
-		{
-			for (int j = i+1; j < matrix[0].size(); j++)
-			{
-				swap(matrix[i][j], matrix[j][i]);
-			}
-		}
+		if (k > nums.size())
+			k %= nums.size();
+
+		int rot = nums.size() - k;
+		vector<int>::iterator beg = nums.begin();
+
+		reverse(beg, beg + rot);
+		reverse(beg + rot, nums.end());
+		reverse(nums.begin(), nums.end());
 	}
 };
-/*
-int main()
-{
-	Solution sln;
-	vector<vector<int> > v = 
-	{ { 1, 2, 3 },
-	  { 4, 5, 6 },
-   	  { 7, 8, 9 } };
-	
-	sln.rotate(v);
-	for (auto vi : v)
-	{
-		for (auto i : vi)
-		{
-			cout << i << " ";
-		}
-		cout << endl;
-	}
 
-	return 0;
-}
-*/
