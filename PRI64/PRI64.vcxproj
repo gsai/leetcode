@@ -145,6 +145,7 @@
     <ClCompile Include="MinStack.cpp" />
     <ClCompile Include="minSubArrayLen.cpp" />
     <ClCompile Include="minWindow.cpp" />
+    <ClCompile Include="moveZeros.cpp" />
     <ClCompile Include="multiply.cpp" />
     <ClCompile Include="myAtoi.cpp" />
     <ClCompile Include="myPow.cpp" />
@@ -162,6 +163,7 @@
     <ClCompile Include="recoverTree.cpp" />
     <ClCompile Include="removeDuplicates.cpp" />
     <ClCompile Include="removeDuplicatesII.cpp" />
+    <ClCompile Include="removeElement.cpp" />
     <ClCompile Include="removeInvalidParentheses.cpp" />
     <ClCompile Include="removeSpaces.cpp" />
     <ClCompile Include="restoreIpAddresses.cpp" />
